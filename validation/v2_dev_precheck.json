@@ -1,0 +1,22 @@
+[
+  {
+    "run": "runs/v2_demo/dev",
+    "planned": 12,
+    "completed": 12,
+    "failed": 0,
+    "sqlite_databases_checked": 24,
+    "source_hash_matches": true,
+    "csv_matches_json": true,
+    "model_requests": 0
+  },
+  {
+    "run": "runs/v2_smoke/dev",
+    "planned": 144,
+    "completed": 144,
+    "failed": 0,
+    "sqlite_databases_checked": 288,
+    "source_hash_matches": true,
+    "csv_matches_json": true,
+    "model_requests": 0
+  }
+]

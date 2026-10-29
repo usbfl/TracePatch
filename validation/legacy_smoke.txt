@@ -1,0 +1,24 @@
+> python -m tracepatch data build --config /workspace/scratch/998cf9ad0095/work/TracePatch/configs/smoke.yaml --out /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/dataset
+Built 32 public snapshots
+> python -m tracepatch run --config /workspace/scratch/998cf9ad0095/work/TracePatch/configs/smoke.yaml --data /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/dataset --split dev --out /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/dev --provider offline
+{
+  "planned": 160,
+  "completed": 160,
+  "failed": 0,
+  "not_run": 0,
+  "wall_seconds_this_invocation": 35.760104920999765
+}
+> python -m tracepatch freeze-protocol --run /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/dev --out /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/protocol.lock.json
+/workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/protocol.lock.json
+> python -m tracepatch run --protocol /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/protocol.lock.json --data /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/dataset --split test --out /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/test --provider offline
+{
+  "planned": 160,
+  "completed": 160,
+  "failed": 0,
+  "not_run": 0,
+  "wall_seconds_this_invocation": 36.002215419000095
+}
+> python -m tracepatch evaluate --run /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/test --gold /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/dataset/evaluation
+Evaluation written to /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/test
+> python -m tracepatch report --run /workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/test
+/workspace/scratch/998cf9ad0095/work/TracePatch/runs/legacy_regression/test/report.html

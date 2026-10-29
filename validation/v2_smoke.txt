@@ -1,0 +1,37 @@
+dev: 24/144
+dev: 48/144
+dev: 72/144
+dev: 96/144
+dev: 120/144
+dev: 144/144
+test: 24/576
+test: 48/576
+test: 72/576
+test: 96/576
+test: 120/576
+test: 144/576
+test: 168/576
+test: 192/576
+test: 216/576
+test: 240/576
+test: 264/576
+test: 288/576
+test: 312/576
+test: 336/576
+test: 360/576
+test: 384/576
+test: 408/576
+test: 432/576
+test: 456/576
+test: 480/576
+test: 504/576
+test: 528/576
+test: 552/576
+test: 576/576
+{
+  "report": "/workspace/scratch/998cf9ad0095/work/TracePatch/runs/v2_smoke/test/report.html",
+  "planned": 576,
+  "completed": 576,
+  "failed": 0,
+  "model_requests": 0
+}

@@ -1,0 +1,68 @@
+{
+  "source_hash": "06b228983b28daccd6885ab48b34f1009730b7b09267fa5a01dedd0cca1857cd",
+  "tests_passed": 67,
+  "verified_runs": 338,
+  "real_model_requests": 0,
+  "validation": {
+    "demo": {
+      "planned": 10,
+      "completed": 10,
+      "statuses": {
+        "completed": 6,
+        "budget_exhausted": 4
+      },
+      "model_calls": 0,
+      "remaining_reservations": 0,
+      "source_matches": true,
+      "sqlite_integrity": "ok",
+      "wall_seconds": 3.4711617569992086,
+      "csv_matches_json": true,
+      "html_external_dependencies": [],
+      "html_structure_checked": true
+    },
+    "smoke/dev": {
+      "planned": 160,
+      "completed": 160,
+      "statuses": {
+        "completed": 41,
+        "budget_exhausted": 119
+      },
+      "model_calls": 0,
+      "remaining_reservations": 0,
+      "source_matches": true,
+      "sqlite_integrity": "ok",
+      "wall_seconds": 18.026450167002622
+    },
+    "smoke/test": {
+      "planned": 160,
+      "completed": 160,
+      "statuses": {
+        "completed": 38,
+        "budget_exhausted": 122
+      },
+      "model_calls": 0,
+      "remaining_reservations": 0,
+      "source_matches": true,
+      "sqlite_integrity": "ok",
+      "wall_seconds": 16.528325336999842,
+      "csv_matches_json": true,
+      "html_external_dependencies": [],
+      "html_structure_checked": true
+    },
+    "diagnostic/results": {
+      "planned": 8,
+      "completed": 8,
+      "statuses": {
+        "completed": 8
+      },
+      "model_calls": 0,
+      "remaining_reservations": 0,
+      "source_matches": true,
+      "sqlite_integrity": "ok",
+      "wall_seconds": 6.166317205999803,
+      "csv_matches_json": true,
+      "html_external_dependencies": [],
+      "html_structure_checked": true
+    }
+  }
+}

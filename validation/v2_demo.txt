@@ -1,0 +1,7 @@
+{
+  "report": "/workspace/scratch/998cf9ad0095/work/TracePatch/runs/v2_demo/dev/report.html",
+  "planned": 12,
+  "completed": 12,
+  "failed": 0,
+  "model_requests": 0
+}

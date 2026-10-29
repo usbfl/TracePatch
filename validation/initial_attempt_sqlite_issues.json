@@ -1,0 +1,91 @@
+[
+  {
+    "path": "runs/v2_smoke/dev/db/54324c4c29d73aad5688a2d6/repair.sqlite",
+    "errors": [
+      [
+        "wrong # of entries in index sqlite_autoindex_actions_1"
+      ],
+      [
+        "row 195 missing from index sqlite_autoindex_actions_1"
+      ]
+    ]
+  },
+  {
+    "path": "runs/v2_smoke/dev/db/17164ff6dd0f7d16a1c818a5/repair.sqlite",
+    "errors": [
+      "database disk image is malformed"
+    ]
+  },
+  {
+    "path": "runs/v2_smoke/test/db/e4d30beb781e0118f2380070/repair.sqlite",
+    "errors": [
+      [
+        "wrong # of entries in index sqlite_autoindex_actions_1"
+      ],
+      [
+        "row 180 missing from index sqlite_autoindex_actions_1"
+      ]
+    ]
+  },
+  {
+    "path": "runs/v2_smoke/test/db/90dd32f42ed756cda6ddc69c/repair.sqlite",
+    "errors": [
+      [
+        "*** in database main ***\nTree 5 page 5 cell 13: Rowid 105 out of order"
+      ],
+      [
+        "wrong # of entries in index sqlite_autoindex_actions_1"
+      ],
+      [
+        "wrong # of entries in index sqlite_autoindex_versions_1"
+      ],
+      [
+        "row 50 missing from index sqlite_autoindex_versions_1"
+      ],
+      [
+        "row 51 missing from index sqlite_autoindex_versions_1"
+      ]
+    ]
+  },
+  {
+    "path": "runs/v2_smoke/test/db/8e1d776b5436217b3fbaf113/repair.sqlite",
+    "errors": [
+      [
+        "*** in database main ***\nPage 110: never used"
+      ]
+    ]
+  },
+  {
+    "path": "runs/v2_smoke/test/db/8120e61957a8277f7a4a0125/repair.sqlite",
+    "errors": [
+      [
+        "wrong # of entries in index sqlite_autoindex_actions_1"
+      ]
+    ]
+  },
+  {
+    "path": "runs/v2_smoke/test/db/29704c4e0eb86324da5e0cd7/repair.sqlite",
+    "errors": [
+      [
+        "wrong # of entries in index sqlite_autoindex_actions_1"
+      ],
+      [
+        "row 118 missing from index sqlite_autoindex_actions_1"
+      ]
+    ]
+  },
+  {
+    "path": "runs/v2_smoke/test/db/b7eb060e134c9b899203ae99/repair.sqlite",
+    "errors": [
+      [
+        "wrong # of entries in index sqlite_autoindex_actions_1"
+      ],
+      [
+        "row 186 missing from index sqlite_autoindex_actions_1"
+      ],
+      [
+        "row 187 missing from index sqlite_autoindex_actions_1"
+      ]
+    ]
+  }
+]

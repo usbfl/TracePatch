@@ -1,0 +1,78 @@
+{
+  "version": "0.2.0",
+  "source_hash": "98a77b1b4e4cfac0f2a52ff38050abc68c982d653720547a8ec0d25db7c1587a",
+  "tests_passed": 90,
+  "published_experiment_runs": 1052,
+  "real_model_requests": 0,
+  "v2": [
+    {
+      "run": "runs/v2_demo/dev",
+      "planned": 12,
+      "completed": 12,
+      "failed": 0,
+      "sqlite_databases_checked": 24,
+      "source_hash_matches": true,
+      "csv_matches_json": true,
+      "model_requests": 0
+    },
+    {
+      "run": "runs/v2_smoke/dev",
+      "planned": 144,
+      "completed": 144,
+      "failed": 0,
+      "sqlite_databases_checked": 288,
+      "source_hash_matches": true,
+      "csv_matches_json": true,
+      "model_requests": 0
+    },
+    {
+      "run": "runs/v2_smoke/test",
+      "planned": 576,
+      "completed": 576,
+      "failed": 0,
+      "sqlite_databases_checked": 1152,
+      "source_hash_matches": true,
+      "csv_matches_json": true,
+      "model_requests": 0
+    }
+  ],
+  "legacy": [
+    {
+      "split": "dev",
+      "planned": 160,
+      "completed": 160,
+      "failed": 0,
+      "sqlite_checked": 160,
+      "checkpoint_matches": true
+    },
+    {
+      "split": "test",
+      "planned": 160,
+      "completed": 160,
+      "failed": 0,
+      "sqlite_checked": 160,
+      "checkpoint_matches": true
+    }
+  ],
+  "html": [
+    {
+      "file": "runs/v2_demo/dev/report.html",
+      "html_structure_checked": true,
+      "external_dependencies": [],
+      "browser_render": "not_run"
+    },
+    {
+      "file": "runs/v2_smoke/test/report.html",
+      "html_structure_checked": true,
+      "external_dependencies": [],
+      "browser_render": "not_run"
+    }
+  ],
+  "known_unexecuted": [
+    "real LLM agent continuation",
+    "uncontrolled natural-language summary semantics",
+    "real KV/prompt cache measurement",
+    "Windows/macOS native execution",
+    "browser screenshot/visual verification"
+  ]
+}

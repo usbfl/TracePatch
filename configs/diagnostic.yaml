@@ -1,0 +1,34 @@
+{
+  "name": "diagnostic",
+  "seeds": [
+    101
+  ],
+  "dev_scenarios": 2,
+  "test_scenarios": 2,
+  "nodes": [
+    24,
+    32
+  ],
+  "deltas": [
+    0,
+    0.5
+  ],
+  "budgets": [
+    0
+  ],
+  "capsule_loss": 0,
+  "semantic_k": 16,
+  "max_depth": 4,
+  "methods": [
+    "full_audit",
+    "all_quarantine"
+  ],
+  "weights": {
+    "entity": 0.4,
+    "text": 0.6,
+    "distance_decay": 0.8,
+    "semantic_risk": 0.7,
+    "usage_floor": 0.25
+  },
+  "max_api_attempts": 32
+}

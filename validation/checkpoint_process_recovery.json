@@ -1,0 +1,7 @@
+{
+  "hard_exit_code": 77,
+  "recovery_from_immutable_checkpoint": true,
+  "spent_units": 1,
+  "reserved_units": 0,
+  "tampered_latest_checkpoint_rejected": true
+}

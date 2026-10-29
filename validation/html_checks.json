@@ -1,0 +1,14 @@
+[
+  {
+    "file": "runs/v2_demo/dev/report.html",
+    "html_structure_checked": true,
+    "external_dependencies": [],
+    "browser_render": "not_run"
+  },
+  {
+    "file": "runs/v2_smoke/test/report.html",
+    "html_structure_checked": true,
+    "external_dependencies": [],
+    "browser_render": "not_run"
+  }
+]

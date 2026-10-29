@@ -1,0 +1,47 @@
+{
+  "name": "workflow-smoke-v2",
+  "seeds": [
+    20261029
+  ],
+  "dev_scenarios": 2,
+  "test_scenarios": 8,
+  "nodes": [
+    24,
+    32
+  ],
+  "deltas": [
+    0,
+    0.5
+  ],
+  "budgets": [
+    0,
+    16,
+    64
+  ],
+  "methods": [
+    "append_only",
+    "source_refresh",
+    "replan",
+    "graph_local",
+    "tracepatch_state",
+    "tracepatch_guard"
+  ],
+  "focuses": [
+    "recommendation",
+    "storage"
+  ],
+  "legacy_replays": [
+    true
+  ],
+  "rounds": 3,
+  "semantic_k": 16,
+  "weights": {
+    "entity": 0.4,
+    "text": 0.6,
+    "distance_decay": 0.8,
+    "semantic_risk": 0.7,
+    "usage_floor": 0.25
+  },
+  "max_depth": 4,
+  "capsule_loss": 0
+}

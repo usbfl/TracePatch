@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+runs/
+/data/
+
+# Local credentials and runtime outputs
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+.DS_Store
